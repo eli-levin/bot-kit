@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/eli-levin/bot-kit/issues"
   },
-  "homepage": "https://github.com/eli-levin/bot-kit#readme"
+  "homepage": "https://github.com/eli-levin/bot-kit#readme",
+  "dependencies": {
+    "natural": "^0.5.0"
+  }
 }
