@@ -1,0 +1,32 @@
+{
+  "name": "bot-kit",
+  "version": "1.0.0",
+  "description": "Framework for building chat bots. Currently supports Facebook Messenger and will support Amazon Lex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eli-levin/bot-kit.git"
+  },
+  "keywords": [
+    "chatbot",
+    "bot",
+    "fb-bot",
+    "messenger-bot",
+    "facebook",
+    "messenger",
+    "fb",
+    "facebook-bot",
+    "amazon",
+    "lex",
+    "alexa"
+  ],
+  "author": "Eli Levin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eli-levin/bot-kit/issues"
+  },
+  "homepage": "https://github.com/eli-levin/bot-kit#readme"
+}
