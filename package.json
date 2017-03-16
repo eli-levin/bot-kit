@@ -1,6 +1,6 @@
 {
   "name": "bot-kit",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "Framework for building chat bots. Currently supports Facebook Messenger and will support Amazon Lex.",
   "main": "index.js",
   "scripts": {
