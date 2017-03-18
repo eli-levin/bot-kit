@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/eli-levin/bot-kit#readme",
   "dependencies": {
+    "mocha": "^3.2.0",
     "natural": "^0.5.0"
   }
 }
