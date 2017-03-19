@@ -27,7 +27,25 @@ const testData = [
     {'text': 'weather', 'label': 'weather'}
 ];
 
+const confidence = 0.8;
+
+const testAction = () => console.log('this would normally interact with the user');
+const intents = [
+    {'label': 'greeting', 'action': testAction},
+    {'label': 'weather', 'action': testAction}
+];
+
+const testData2 = [
+    {'text': 'what up', 'label': 'greeting'},
+    {'text': 'hi, weatherbot!', 'label': 'greeting'},
+    {'text': 'get me the weather report', 'label': 'weather'},
+    {'text': 'what\'s the weather like today', 'label': 'weather'}
+];
+
 module.exports = {
     trainingData: trainingData,
-    testData: testData
+    testData: testData,
+    testData2: testData2,
+    confidence: confidence,
+    intents: intents
 };

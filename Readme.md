@@ -51,10 +51,10 @@ let testData = [
 ];
 ```
 
-5. Train the bot to extract intent labels from user messages. We will accomplish this through our learning data we just created. This method will Error if the training results in < 60% test success rate. Without explaining NLP intricacies, the underlying code uses a technique called `classification`. Read more about it on natural's github repo.
+5. Train the bot to extract intent labels from user messages. Use the learning data we just created, and (optionally) choose a confidence metric for your test data (defaults to 0.6). This method will Error if the training results is below the confidence threshold.  test success rate. Without explaining NLP intricacies, the underlying code uses a technique called `classification`. Read more about it on natural's github repo.
 
 ```javascript
-weatherBot.trainBot(trainingData, testData);
+weatherBot.trainBot(trainingData, testData [,confidence]);
 ```
 
 6. Now you can use your bot to extract intents from user messages.
