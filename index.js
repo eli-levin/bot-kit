@@ -6,6 +6,9 @@
 
 'use strict'
 
+const Bot    = require('./lib/Bot.js'),
+      Intent = require('./lib/Intent.js');
+
 module.exports = {
     'Bot' : Bot,
     'Intent': Intent
