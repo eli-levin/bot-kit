@@ -9,6 +9,8 @@ const trainingData = [
     {'text': 'sup dude', 'label': 'greeting'},
     {'text': 'hey', 'label': 'greeting'},
     {'text': 'what\'s up?', 'label': 'greeting'},
+    {'text': 'sup', 'label': 'greeting'},
+    {'text': 'what up?', 'label': 'greeting'},
     {'text': 'yo', 'label': 'greeting'},
     {'text': 'hello', 'label': 'greeting'},
     {'text': 'give me the weather forecast', 'label': 'weather'},
@@ -36,9 +38,10 @@ const intents = [
 ];
 
 const testData2 = [
-    {'text': 'what up', 'label': 'greeting'},
+    {'text': 'hello', 'label': 'greeting'},
     {'text': 'hi, weatherbot!', 'label': 'greeting'},
     {'text': 'get me the weather report', 'label': 'weather'},
+    {'text': 'show me the weather', 'label': 'weather'},
     {'text': 'what\'s the weather like today', 'label': 'weather'}
 ];
 

@@ -57,7 +57,7 @@ describe('Bot', () => {
 
             Cdata.testData2.forEach(line => {
                 assert.deepEqual(
-                    weatherBot.determineMessageIntent(line.text),
+                    weatherBot.determineMessageIntent(line.text).label,
                     line.label,
                     'Did not get correct intent for utterance: ' + line.text);
             });
