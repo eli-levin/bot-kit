@@ -13,15 +13,20 @@
   "keywords": [
     "chatbot",
     "bot",
+    "bots",
     "fb-bot",
     "messenger-bot",
     "facebook",
     "messenger",
+    "facebook messenger",
     "fb",
     "facebook-bot",
-    "amazon",
+    "amazon lex",
     "lex",
-    "alexa"
+    "alexa",
+    "bot kit",
+    "bot-kit",
+    "botkit"
   ],
   "author": "Eli Levin",
   "license": "MIT",
@@ -30,7 +35,9 @@
   },
   "homepage": "https://github.com/eli-levin/bot-kit#readme",
   "dependencies": {
-    "mocha": "^3.2.0",
     "natural": "^0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
